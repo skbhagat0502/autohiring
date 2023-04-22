@@ -1,10 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./header.css";
+import "./about.css";
+import "./card.css";
+import "./footer.css";
+import App from "./components/App";
+import reportWebVitals from "./components/reportWebVitals";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+<script
+  src="https://kit.fontawesome.com/6bc7e0b7f0.js"
+  crossorigin="anonymous"
+></script>;
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />
